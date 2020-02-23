@@ -1,4 +1,4 @@
-html, body{
+body{
   margin: 0;
   padding: 0;
   background: #4285f4;
@@ -19,7 +19,7 @@ header {
 .navbar-brand{
   font-size: 3rem;
   font-family: Raleway;
-  padding-left: 10px;
+  padding-left: 1px;
   text-shadow: 5px 2px 3px #0D1A30;
 }
 
@@ -32,7 +32,7 @@ li .btn {
 }
 
 .cta {
-  padding:150px 0;
+  padding:150px 0 75px 0;
   text-align: center;
   line-height: 1.5;
 }
@@ -47,25 +47,10 @@ li .btn {
   opacity: .6;
 }
 
-.features{
-  background: #2A487A;
-  padding-top: 150px;
-  text-align: center;
-}
 
-.card{
-  background: #2A487F;
-  margin: 30px;
-}
-
-.card img {
-  width: 200px;
-  height: 200px;
-  display: block;
-  margin: auto;
-}
-
+/* -------------------- Call to Action Section============================= */
 .catch{
+  background: #2A487A;
   text-align: center;
   padding-bottom: 200px;
 }
@@ -76,6 +61,12 @@ li .btn {
 
 .catch img{
   padding-top: 149px;
+}
+
+.call-to-action{
+  background: #4285f4;
+  border-radius: 10%;
+  padding: 10px;
 }
 
 .parent{
